@@ -1,0 +1,30 @@
+{
+    "background_color": "white",
+    "description": "A minimal HTML, CSS, and JavaScript powering a user interface.",
+    "display": "standalone",
+    "icons": [{
+      "purpose": "maskable",
+      "sizes": "192x192",
+      "src": "/icon_192.png",
+      "type": "image/png"
+    }, {
+      "sizes": "192x192",
+      "src": "/icon_192.png",
+      "type": "image/png"
+    }, {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "/icon_512.png",
+      "type": "image/png"
+    }, {
+      "sizes": "512x512",
+      "src": "/icon_512.png",
+      "type": "image/png"
+    }],
+    "id": "/",
+    "name": "App Shell",
+    "orientation": "portrait",
+    "start_url": "/",
+    "short_name": "AS",
+    "theme_color": "#404040"
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>V2 | App Shell</title>
+        <meta name="description" content="A minimal HTML, CSS, and JavaScript powering a user interface v2.">
+        <meta name="color-scheme" content="dark light">
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#9e9eff">
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#00e">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/icon_192.png" rel="icon" sizes="any">
+        <link href="/icon_192.png" rel="apple-touch-icon">
+        <link href="/manifest.json" rel="manifest">
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap" rel="preload" as="style">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap" rel="stylesheet">
+        <link href="/v2/style.css" rel="preload" as="style">
+        <link href="/v2/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <a class="skip-nav" href="#main">Skip to main content</a>
+        <header class="web">
+            <button class="open-nav" disabled>
+                <span aria-label="Open navigation menu" class="material-symbols-outlined" title="Open navigation menu">menu</span>
+            </button>
+            <h1>
+                <a href="/">
+                    <img src="/icon_192.png" alt="Icon" height="32" width="32">
+                    <abbr title="App Shell">AS</abbr>
+                    <span>App Shell</span>
+                </a>
+            </h1>
+            <div role="toolbar">
+                <button class="share" disabled>
+                    <span aria-label="Share" class="material-symbols-outlined" title="Share">share</span>
+                </button>
+                <button class="user" disabled>
+                    <span aria-label="User" class="material-symbols-outlined" title="User">account_circle</span>
+                </button>
+            </div>
+        </header>
+        <nav class="web" role="presentation">
+            <nav>
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="/">Version 1</a></li>
+                    <li><a href="/v2/">Version 2</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <main id="main">
+            <p aria-label="Loading&hellip;" role="progressbar">Loading&hellip;</p>
+        </main>
+        <footer class="web">
+            <ul>
+                <li>Copyright &copy; <a href="/">di.bew.web.id</a></li>
+            </ul>
+        </footer>
+        <button class="float">
+            <span aria-label="Add" class="material-symbols-outlined" title="Add">add</span>
+        </button>
+        <script src="/v2/script.js" type="module"></script>
+        <noscript>🤖 This web requires JavaScript. Please activate.</noscript>
+        <!-- Copyright (c) appsite.web.id -->
+    </body>
+</html>
