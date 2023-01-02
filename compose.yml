@@ -3,3 +3,5 @@ services:
     image: nginx:stable
     ports:
       - 80:80
+    volumes:
+      - ./src:/usr/share/nginx/html
